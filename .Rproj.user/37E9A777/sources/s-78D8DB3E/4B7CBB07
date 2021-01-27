@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1611769320103.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "4B7CBB07",
+    "lastKnownWriteTime" : 1611770082,
+    "last_content_update" : 1611770082736,
+    "path" : "~/Desktop/Adria/Other/ASBTEC/ArticlesWeb/Rmarkdown_web/rmarkdown_web.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "155,75",
+        "scrollLine" : "129"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

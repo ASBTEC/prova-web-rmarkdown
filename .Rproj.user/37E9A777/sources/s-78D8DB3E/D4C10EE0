@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1611768964524.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3397274508",
+    "id" : "D4C10EE0",
+    "lastKnownWriteTime" : 1611768990,
+    "last_content_update" : 1611768990186,
+    "path" : "~/Desktop/Adria/Other/ASBTEC/provaWeb/publications.Rmd",
+    "project_path" : "publications.Rmd",
+    "properties" : {
+        "cursorPosition" : "6,3",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
