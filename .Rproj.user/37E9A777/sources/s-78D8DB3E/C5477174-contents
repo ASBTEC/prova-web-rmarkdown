@@ -1,14 +1,12 @@
 ---
+categories:
+- Cursos
+date: 2021-01-27
+tags:
+- Web
+- RMarkdown
+- GitHub
 title: "Com fer una pàgina web amb Rmarkdown i GitHub pages"
-output:
-  html_document:
-    highlight: textmate
-    theme: spacelab
-    toc: no
-    toc_depth: 3
-    toc_float: no
-    self_contained: false
-    
 ---
 
 ```{r setup, include=FALSE}
@@ -125,7 +123,7 @@ Per a generar els fitxers HTML que configuraran les pàgines del lloc web podem 
 * Crear documents *R Markdown* i renderitzar-los a HTML. Aquesta és l'opció més senzilla i en la que ens centrarem:
 
   + Un cop tinguem tots els fitxers *R Markdown* creats i el fitxer `_site.yml` configurat, per a construir la pàgina podem anar a la pestanya *Build* de dalt a la dreta i clicar a *Build Website* (Figura 2).
-  + Podem crear tants fitxers *R Markdown* com volguem i renderitzar-los a HTML, però per a què apareixin a la pàgina web hem de posar-los al fitxer `_site.yml`.
+  + Podem crear tants fitxers *R Markdown* com volguem i renderitzar-los a HTML, però per a què apareixin a la pàgina web hem de posar-los al fitxer `_site.yml` (exepte l'`index.html`, que serà la pàgina inicial del nostre lloc web encara que no el posem explicitament).
   + Als fitxers *R Markdown*, normalment hi tenim una *capçalera YAML* (al principi del document entre dos blocs de tres guions `---`), amb diverses opcions. En aquest cas només cal indicar el `title`, ja que les opcions com `output`... les indicarem al fitxer `_site.yml`.
 
 ```{r rstudio_screen, fig.show="hold", out.width="100%", fig.align = "default", fig.cap="Figura 2. Pantalla d'RStudio on es mostra el fitxer '_site.yml' de la web de prova a l'editor (panell superior esquerra), la pestanya 'Build' (panell superior dret) i la distribució del directori on tindrem guardat el lloc web (panell inferior dret)."}

@@ -7,8 +7,7 @@ output:
     toc: no
     toc_depth: 3
     toc_float: no
-    self_contained: false
-    
+    self_contained: true
 ---
 
 ```{r setup, include=FALSE}

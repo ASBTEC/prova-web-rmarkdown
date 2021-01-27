@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2572601057",
+    "hash" : "0",
     "id" : "5F8DFEBF",
-    "lastKnownWriteTime" : 1611769289,
-    "last_content_update" : 1611769289693,
+    "lastKnownWriteTime" : 1611790365,
+    "last_content_update" : 1611790365206,
     "path" : "~/Desktop/Adria/Other/ASBTEC/provaWeb/index.Rmd",
     "project_path" : "index.Rmd",
     "properties" : {
-        "cursorPosition" : "1,20",
+        "cursorPosition" : "6,119",
         "scrollLine" : "0"
     },
     "read_only" : false,
