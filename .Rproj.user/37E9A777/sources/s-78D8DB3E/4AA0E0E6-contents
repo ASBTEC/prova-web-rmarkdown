@@ -21,7 +21,7 @@ navbar:
     - icon: fa-address-card fa-lg
       href: contact.html
     - icon: fa-github
-      href: http://github.com/
+      href: http://github.com/ASBTEC/prova-web-rmarkdown
     - icon: fa-gitlab
       href: http://gitlab.com/
 output:

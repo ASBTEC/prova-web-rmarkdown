@@ -35,7 +35,7 @@ Primer de tot, cal recalcar que farà falta tenir determinats requeriments:
 * Tenir instal·lats tots els paquets d'R necessaris per a crear la nostra web.
 * Tenir un compte de [GitHub](https://github.com/), de [GitLab](https://gitlab.com/) o de [BitBucket](https://bitbucket.org/). Aquí ensenyarem com dur a terme el procés amb GitHub, però les altres dues opcions són igual de viables i la metodologia no canvia gaire.
 * Conèixer a grans trets com funcionen RStudio i GitHub.
-* Conèixer la sintaxi d'[Rmarkdown](https://rmarkdown.rstudio.com/lesson-1.html).
+* Conèixer la [sintaxi d'Rmarkdown](https://rmarkdown.rstudio.com/lesson-1.html).
 
 # Web o blog?
 
@@ -118,10 +118,11 @@ Un cop haguem fet això es crearà la carpeta corresponent al nostre projecte ju
 Per a generar els fitxers HTML que configuraran les pàgines del lloc web podem fer-ho de diverses maneres.
 
 * Escriure els fitxers HTML directament, cosa que no és recomanable pels que no dominen aquest llenguatge i que és força tediosa.
-* Crear documents *R Markdown* i renderitzar-los a HTML, mitjançant la icona *Knit*. Aquesta és l'opció més senzilla i en la que ens centrarem:
+* Crear documents *R Markdown* i renderitzar-los a HTML. Aquesta és l'opció més senzilla i en la que ens centrarem:
 
   + Un cop tinguem tots els fitxers *R Markdown* creats i el fitxer `_site.yml` configurat, per a construir la pàgina podem anar a la pestanya *Build* de dalt a la dreta i clicar a *Build Website* (Figura 2).
   + Podem crear tants fitxers *R Markdown* com volguem i renderitzar-los a HTML, però per a què apareixin a la pàgina web hem de posar-los al fitxer `_site.yml`.
+  + Als fitxers *R Markdown*, normalment hi tenim una *capçalera YAML* (al principi del document entre dos blocs de tres guions `---`), amb diverses opcions. En aquest cas només cal indicar el `title`, ja que les opcions com `output`... les indicarem al fitxer `_site.yml`.
 
 ```{r rstudio_screen, fig.show="hold", out.width="100%", fig.align = "default", fig.cap="Figura 2. Pantalla d'RStudio on es mostra el fitxer '_site.yml' de la web de prova a l'editor (panell superior esquerra), la pestanya 'Build' (panell superior dret) i la distribució del directori on tindrem guardat el lloc web (panell inferior dret)."}
 knitr::include_graphics("rstudio_screen.png")
@@ -153,17 +154,37 @@ En aquest exemple trobem diversos paràmetres:
       + `text:` text dels enllaços
       + `href:` nom del fitxer HTML de la pàgina que volem posar.
       
-Ara bé, com veieu a la **figura 2**, la qual mostra una [pàgina de prova](), hi ha moltes més opcions per especificar:
+Ara bé, com veieu a la **figura 2**, la qual mostra una [pàgina de prova](https://asbtec.github.io/prova-web-rmarkdown/index.html), hi ha moltes més opcions per especificar:
 
 * Dins de `navbar:`
 
   + `type:` (*opcional*) si indiquem `inverse` canvia els colors del tema del lloc web. Si no ho volem així, no cal especificar-la.
   + `right:` enllaços i menús que ens apareixeran a la part dreta de la barra de navegació.
   
-  + Dins de `right:` o `left:`
+  + Dins de `right` o `left:`
     
       + Cada nova pestanya ha d'anar acompanyada d'un guió `-`.
       + `text:` text que apareixerà a la pestanya de la barra de navegació.
+      + `icon:` icona que apareixerà juntament amb el text de la pestanya. No pot ser qualsevol imatge, sinó que hem d'utilitzar les icones de [*Font Awesome*](https://fontawesome.com/icons?d=gallery) indicant `fa-nom_de_la_icona`.
+      + `href:` URL o ruta al fitxer que volem enllaçar a la pestanya.
+      + `menu:` si volem que la pestanya sigui un menú desplegable, hem d'indicar aquesta opció, i a dins (amb una tabulació, indicarem `text`, `href`...)
+      
+* `output:` format dels fitxers que volem que es creein a partir dels *R Markdown*. En aquesta opció s'hi pot especificar el mateix que a la capçalera dels fitxers *R Markdown*. Dins d'`output` hi podem posar més opcions:
+  
+  + `html_document:` indiquem que el fitxer que volem és HTML. Dins d'aquesta opció:
+      
+      + `theme:` tema que volem utilitxar per a la nostra pàgina web. Alguns exemples de temes són: *cerulean*, *cosmo*, *yeti*, *darkly*, *paper*, *journal*, etc.
+      + Hi ha moltes més opcions a afegir tant aquí com a la capçalera dels *R Markdown* (ex. `highlight`, `toc`, `toc_float`, `code_folding`), [aquí](https://bookdown.org/yihui/rmarkdown/html-document.html) podem trobear-ne algunes.
+  
+Ara ja tenim tot el que necessitem per fer la web i, si cliquem *Build Website*, podrem visualitzar-la de manera local.
+
+## Pas 5. Crear el repositori de GitHub.
+
+Si no tenim un compte a GitHub, haurem d'anar <https://github.com> i crear un compte seguint les instruccions. Una vegada haguem creat el compte, ja podrem crear tots els repositoris que volguem per a guardar codi. Aquí en teniu una petita [guia](https://guides.github.com/activities/hello-world/), la qual us hem deixat al principi d'aquesta mateixa publicació.
+
+Per a guardar la vostra web, el que haureu de fer és crear un repositori amb el nom `usuari.github.io`. Per exemple, el meu usuari de GitHub és [*amitjavilaventura*](https://github.com/amitjavilaventura), per tant, el repositori que he de crear per a guardar la meva web és [`amitjavilaventura.github.io`](https://github.com/amitjavilaventura/amitjavilaventura.github.io), que serà el domini que es farà servir per allotjar el lloc web (*Figura 3*). També podem crear tots els repositoris que volguem i amb qualsevol nom per allotjar tantes webs com volguem, però aquestes webs s'allotjaran com a subdominis de la web principal (ex. `usuari.github.io/nom_repositori_secundari/`)
+
+      
 
 
 
