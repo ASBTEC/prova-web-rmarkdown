@@ -1,3 +1,221 @@
 ---
-title: "Currículum"
+title: "JO"
 ---
+<!-- el text que està entre <p> i altres coses per l'estil és codi al qual dono format mitjançant HTML -->
+
+<!-- com heu vist, hi ha algunes icones, aquestes són icones de 'font awesome' i es poden trobar a https://fontawesome.com/icons?d=gallery, on podeu triar l'icona i inserir-la en el document copiant el codi html -->
+
+<p style = "font-size:20px; color: black;"><i class="fas fa-user-tie" aria-hidden="true"></i> &nbsp; Biotecnòleg a <i>Associació de Biotecnòlegs de Catalunya</i></p>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      error = FALSE,
+                      warning = FALSE)
+```
+
+```{r image_me, eval = T}
+htmltools::img(src = "assets/foto.png", 
+               alt = 'foto_carnet', 
+               style = 'float; position:absolute; top:1; right:0; padding-top:10px; padding-bottom:35px; padding-right:200px; height:200px')
+```
+
+***
+
+<p style='font-size:15px; color:black;'> <i class="fas fa-home" aria-hidden="true"></i> &nbsp; <b>Casa</b> </p>
+
+<p style='font-size:15px;color:black;'> <i class="fas fa-at" aria-hidden="true"></i> &nbsp; <b>Correu</b> </p>
+
+
+<p style='font-size:15px;color:black;'>
+<a href="https://www.asbtec.org"><i class="fa fa-globe" aria-hidden="true"></i></a> &nbsp;
+<a href="https://github.com/ASBTEC"><i class="fa fa-github" aria-hidden="true"></i></a> &nbsp;
+<a href="https://www.linkedin.com/company/asbtec/"><i class="fa fa-linkedin" aria-hidden="true"></i></a> &nbsp; 
+<a href="https://twitter.com/asbtec"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp;
+</p> 
+
+***
+
+Sóc una persona dedicada a la biotecnologia amb la intenció de millorar el futur de les persones mitjançant la modificació i aplicació dels éssers vius per obtenir avenços en salut, alimentació, medi ambient.. . 
+
+Un dels meus objectius és que transmetre els meus coneixements a la societat, així com promoure la figura del biotecnòleg. Per aquest motiu, formo part de l'ASBTEC, l'Associació de Biotecnòlegs de Catalunya.
+
+***
+
+# Educació acadèmica {.tabset}
+
+## Doctorat en Biotecnologia
+* Inici - Fi
+* __*Institució*__. 
+* Mini descripció
+* Tesis
+* Nota...
+
+<br>
+
+## Master en Biotecnologia
+* Inici - Fi
+* __*Institució*__. 
+* Mini descripció
+* Tesis
+* Nota...
+
+<br>
+
+## Grau en Biotecnologia
+* Inici - Fi
+* __*Institució*__. 
+* Mini descripció
+* Tesis
+* Nota...
+
+<br>
+
+# Professional experience {.tabset}
+
+## Biotecnòleg
+* Inici - Fi
+* __*Institució*__ 
+* Departament/grup
+* Mini descripció.
+
+<br>
+
+## Estudiant de doctorat en Biotecnologia
+* Inici - Fi
+* __*Institució*__ 
+* Departament/grup
+* Mini descripció.
+<br>
+
+## Tesis de màster en Biotecnologia
+* Inici - Fi
+* __*Institució*__ 
+* Departament/grup
+* Mini descripció.
+<br>
+
+## Tesis de grau en Biotecnologia
+* Inici - Fi
+* __*Institució*__ 
+* Departament/grup
+* Mini descripció.
+<br>
+
+## Pràctiques.
+* Inici - Fi
+* __*Institució*__ 
+* Departament/grup
+* Mini descripció.
+
+<br>
+
+# Habilitats {.tabset}
+
+## Informàtica
+
+Llenguatge  | Git                | Sistemes Opeartius | Ofimàtica     |
+:---------: | :---------------:  | :----------------: | :-----------: |
+R           | GitHub             | Windows            | MS Office     |         
+Python      |                    | Linux (Ubuntu)     | OpenOffice    |
+Markdown    |                    | MAC                |               |
+
+<br>
+ 
+## Bioinformatics
+
+Dades òmiques    | Altres              | 
+:-------------:  | :---------------:   | 
+Microarray       | UCSC Genome Browser | 
+RNA-seq          | IGV                 |
+ChIP-seq         | Galaxy              |       
+ATAC-seq         | TCGA                |    
+MNase-seq        | ENCODE              |
+                 |                     |    
+
+<br>
+
+## Experimental techniques
+
+Cultius            | Àcid nucleics   | Proteins     | Separation/Detection                |
+:-----:            | :----------:    | :------:     | :--------:                          |
+Cultius bacterians | Extracció       | Extracció    | Electroforesis                      |
+Cultius de llevats | Purificació     | Purificació  | Western Blot                        |
+Cultius cel·lulars | (RT-)(q)PCR     | ...          | Citometria de flux                  | 
+...                | Clonatge        |              | ...                                 | 
+                   |                 |              |                                     | 
+
+<br>
+
+## Idiomes
+
+Idioma     | Level                     | Language   | Level        |
+:--------: | :-----:                   | :--------: | :-----:      |
+Català     | Natiu                     | Italià     | Intermedi    |
+Castellà   | Natiu                     | Francès    | Bàsic        |
+Anglès     | Avançat (C1)              | Alemany    |              |
+           |                           |            |              |
+           
+<br>
+
+# Publications 
+
+
+
+
+## Journal Articles {.tabset}
+
+## ASBTEC et al (2021)
+
+* Títol
+* Revista
+* Doi
+
+## ASBTEC et al (2020)
+
+ASBTEC *et al* (2020). **Títol**. *Revista*. [doi](https://www.asbtec.org).
+
+<br>
+
+# Educació adicional {.tabset}
+
+## IX Jornades de Biotecnòlegs de Catalunya
+* __ASBTEC__
+* 03/2019
+
+<br>
+
+# Organitzacions {.tabset}
+
+## SCB
+__*Societat Catalana de Biologia*__
+
+* ([*SCB*](https://scb.iec.cat)) - ([*IEC*](https://www.iec.cat)) .
+* Soci des del 2017.
+
+<br>
+
+## ASBTEC
+__*Associació de Biotecnòlegs de Catalunya*__
+
+*  ([*ASBTEC*](http://www.asbtec.org)). 
+* Soci des del 2005.
+* Soci actiu des del 2005.
+
+<br>
+
+# Altres honors {.tabset}
+
+## Beca de doctorat xxxx
+
+## Premi esportiu xxxx
+
+## Premi acadèmic xxxx
+
+<br>
+
+
+
+
+<br><br><br><br>
+<br><br><br><br>
