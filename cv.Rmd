@@ -165,17 +165,30 @@ Anglès     | Avançat (C1)              | Alemany    |              |
 
 ## Journal Articles {.tabset}
 
-## ASBTEC et al (2021)
+### ASBTEC et al (2021)
 
 * Títol
 * Revista
 * Doi
 
-## ASBTEC et al (2020)
+<br>
+
+### ASBTEC et al (2020)
 
 ASBTEC *et al* (2020). **Títol**. *Revista*. [doi](https://www.asbtec.org).
 
 <br>
+
+
+## Posters
+
+
+<br><br><br>
+
+## Seminaris
+
+<br><br><br>
+
 
 # Educació adicional {.tabset}
 
